@@ -7,4 +7,4 @@ elif s=='A' or s=='E' or s=='O' or s== 'I' or s=='U':
     print(f"{s} is a vowel")
 else:
     print(f"{s} is a consonant")
-    print   
+     
