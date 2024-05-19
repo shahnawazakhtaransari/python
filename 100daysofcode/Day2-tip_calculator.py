@@ -4,10 +4,10 @@
 
 print('Welcome to the tip calculator.')
 bill = float(input('What was the total bill? $'))
-tip_porcentage = int(input('What porcentage tip would you like to give? 10, 12 or 15? '))
+tip_percentage = int(input('What percentage tip would you like to give? 10, 12 or 15? '))
 number_people = int(input('How many people to split the bill? '))
 
-tip = bill * (tip_porcentage / 100)   
+tip = bill * (tip_percentage / 100)   
 total_bill = bill + tip
 personal_bill = total_bill / number_people
 format_bill = f'{personal_bill:.2f}' #we guarantee that the result has exactly two decimal places.
