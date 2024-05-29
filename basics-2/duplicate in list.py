@@ -1,3 +1,4 @@
+print("W3Resource")
 # # Write a Python function that takes a sequence of numbers and determines whether all the numbers are different from each other.
 # b=input("Enter the elements of the list being separated by spaces:")
 # list=b.split()
