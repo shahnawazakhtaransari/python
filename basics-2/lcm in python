@@ -1,0 +1,9 @@
+import math
+
+n1 = int(input("Enter first number: "))
+n2 = int(input("Enter second number: "))
+
+# Formula-based calculation
+lcm = abs(n1 * n2) // math.gcd(n1, n2)
+
+print(f"LCM is: {lcm}")
